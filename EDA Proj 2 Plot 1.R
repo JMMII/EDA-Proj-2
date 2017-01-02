@@ -8,4 +8,4 @@ SCC <- readRDS("Source_Classification_Code.rds")
 
 ## To see whether total emissions has changed over the years, construct a barplot.
 
-barplot(table(NEI$year), col = "Wheat", main = "Total PM2.5 Emitted by All Sources per Year")
+barplot(table(NEI$year), col = "Wheat", main = "Total PM2.5 Emitted by All Sources per Year", ylab = "Tons of PM2.5")
